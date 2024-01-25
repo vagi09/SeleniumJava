@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-19T13:23:29 IST" name="Default suite" finished-at="2024-01-19T13:24:41 IST" duration-ms="71937">
+    <groups>
+    </groups>
+    <test started-at="2024-01-19T13:23:29 IST" name="Default test" finished-at="2024-01-19T13:24:41 IST" duration-ms="71937">
+      <class name="com.automation.tests.LogInTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automation.tests.LogInTest@3b2c0e88]" started-at="2024-01-19T13:23:30 IST" name="setUp" finished-at="2024-01-19T13:23:34 IST" duration-ms="4186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.automation.tests.LogInTest@3b2c0e88]" started-at="2024-01-19T13:23:34 IST" name="loginTest" data-provider="userData" finished-at="2024-01-19T13:23:40 IST" duration-ms="6308" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[student]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.tests.LogInTest@3b2c0e88]" started-at="2024-01-19T13:23:40 IST" name="tearDown" finished-at="2024-01-19T13:23:41 IST" duration-ms="809" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automation.tests.LogInTest@3b2c0e88]" started-at="2024-01-19T13:23:41 IST" name="setUp" finished-at="2024-01-19T13:23:45 IST" duration-ms="3372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.automation.tests.LogInTest@3b2c0e88]" started-at="2024-01-19T13:23:45 IST" name="loginTest" data-provider="userData" finished-at="2024-01-19T13:23:51 IST" duration-ms="6274" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[incorrectUser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.tests.LogInTest@3b2c0e88]" started-at="2024-01-19T13:23:51 IST" name="tearDown" finished-at="2024-01-19T13:23:51 IST" duration-ms="365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automation.tests.LogInTest@3b2c0e88]" started-at="2024-01-19T13:23:51 IST" name="setUp" finished-at="2024-01-19T13:23:55 IST" duration-ms="3319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.automation.tests.LogInTest@3b2c0e88]" started-at="2024-01-19T13:23:55 IST" name="loginTest" data-provider="userData" finished-at="2024-01-19T13:24:01 IST" duration-ms="6319" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[incorrectUser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password124]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.tests.LogInTest@3b2c0e88]" started-at="2024-01-19T13:24:01 IST" name="tearDown" finished-at="2024-01-19T13:24:01 IST" duration-ms="327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automation.tests.LogInTest@3b2c0e88]" started-at="2024-01-19T13:24:01 IST" name="setUp" finished-at="2024-01-19T13:24:05 IST" duration-ms="3434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.automation.tests.LogInTest@3b2c0e88]" started-at="2024-01-19T13:24:05 IST" name="loginTest" data-provider="userData" finished-at="2024-01-19T13:24:11 IST" duration-ms="6306" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[incorrectUser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password125]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.tests.LogInTest@3b2c0e88]" started-at="2024-01-19T13:24:11 IST" name="tearDown" finished-at="2024-01-19T13:24:11 IST" duration-ms="317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automation.tests.LogInTest@3b2c0e88]" started-at="2024-01-19T13:24:11 IST" name="setUp" finished-at="2024-01-19T13:24:15 IST" duration-ms="3357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.automation.tests.LogInTest@3b2c0e88]" started-at="2024-01-19T13:24:15 IST" name="loginTest" data-provider="userData" finished-at="2024-01-19T13:24:21 IST" duration-ms="6274" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[incorrectUser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password126]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.tests.LogInTest@3b2c0e88]" started-at="2024-01-19T13:24:21 IST" name="tearDown" finished-at="2024-01-19T13:24:21 IST" duration-ms="304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automation.tests.LogInTest@3b2c0e88]" started-at="2024-01-19T13:24:21 IST" name="setUp" finished-at="2024-01-19T13:24:25 IST" duration-ms="3415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.automation.tests.LogInTest@3b2c0e88]" started-at="2024-01-19T13:24:25 IST" name="loginTest" data-provider="userData" finished-at="2024-01-19T13:24:31 IST" duration-ms="6277" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[incorrectUser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password127]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.tests.LogInTest@3b2c0e88]" started-at="2024-01-19T13:24:31 IST" name="tearDown" finished-at="2024-01-19T13:24:31 IST" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automation.tests.LogInTest@3b2c0e88]" started-at="2024-01-19T13:24:31 IST" name="setUp" finished-at="2024-01-19T13:24:35 IST" duration-ms="3491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.automation.tests.LogInTest@3b2c0e88]" started-at="2024-01-19T13:24:35 IST" name="loginTest" data-provider="userData" finished-at="2024-01-19T13:24:41 IST" duration-ms="6306" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[incorrectUser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password128]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.tests.LogInTest@3b2c0e88]" started-at="2024-01-19T13:24:41 IST" name="tearDown" finished-at="2024-01-19T13:24:41 IST" duration-ms="331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automation.tests.LogInTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
